@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3,4,5"
+    android:padding="10dp">
+
+    <TextView
+        android:height="50dp" />
+
+    <TextView
+        android:layout_height="50sp"
+        android:text="Dhrumil - 255690694015"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_height="60dp">
+        <TextView
+            android:text="" />
+
+        <TextView
+            android:text="Mon"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Tue"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Wed"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Thu"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="Fri"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <!-- 11 AM Row -->
+    <TableRow
+        android:layout_height="150dp">
+
+        <TextView
+            android:text="11 AM"
+            android:gravity="center" />
+
+        <TextView
+            android:text="DAA"
+            android:gravity="center"
+            android:background="#4CAF50" />
+
+        <TextView
+            android:text="SE"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="#D32F2F" />
+
+        <TextView
+            android:text="SE"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="#D32F2F" />
+
+        <TextView
+            android:text="DAA"
+            android:gravity="center"
+            android:background="#4CAF50" />
+
+        <TextView
+            android:text="MAD"
+            android:gravity="center"
+            android:background="#FF9800" />
+    </TableRow>
+
+    <!-- Break Time Row -->
+    <TableRow
+        android:layout_width="400dp"
+        android:layout_height="49dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="1 PM" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_span="5"
+            android:background="#FFC107"
+            android:gravity="center"
+            android:text="BREAK TIME"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="70dp">
+
+        <TextView
+            android:text="2 PM"
+            android:gravity="center" />
+
+        <TextView
+            android:text="INS"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="#3F51B5" />
+
+        <TextView
+            android:text="INS"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="#3F51B5" />
+
+        <TextView
+            android:text="MAD"
+            android:gravity="center"
+            android:background="#FF9800" />
+
+        <TextView
+            android:text="RW"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="#9C27B0" />
+
+        <TextView
+            android:text="RW"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="#9C27B0" />
+    </TableRow>
+
+    <!-- 3:30 PM Row -->
+    <TableRow
+        android:layout_height="70dp">
+
+        <TextView
+            android:text="3:30 PM"
+            android:gravity="center" />
+        <TextView />
+
+        <TextView
+            android:text="MAD"
+            android:gravity="center"
+            android:background="#FF9800" />
+
+        <TextView
+            android:text="DAA"
+            android:gravity="center"
+            android:background="#4CAF50" />
+
+        <TextView />
+
+        <TextView
+            android:text="INS"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="#3F51B5" />
+
+    </TableRow>
+</TableLayout>

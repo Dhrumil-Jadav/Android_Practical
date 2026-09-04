@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_to"
+        android:layout_width="389dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="10dp"
+        android:hint="To"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_sub"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="65dp"
+        android:hint="Subject"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:layout_width="388dp"
+        android:layout_height="80dp"
+        android:layout_x="10dp"
+        android:layout_y="120dp"
+        android:gravity="top"
+        android:hint="Message"
+        android:inputType="textMultiLine" />
+
+        <ImageView
+            android:id="@+id/img_box"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_x="140dp"
+            android:layout_y="300dp"
+            android:src="@drawable/smiley"
+            android:contentDescription="Smiley Image"
+             />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="285dp"
+        android:layout_y="659dp"
+        android:text="SEND" />
+
+
+</AbsoluteLayout>
