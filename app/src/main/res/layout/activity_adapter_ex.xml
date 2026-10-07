@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_enroll"
+        android:layout_width="371dp"
+        android:layout_height="141dp"
+        android:text="255690694015"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etItem"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Enter Item" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"/>
+
+    <TextView
+        android:id="@+id/tv_spnlabel"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Spinner :"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/spn_list"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"/>
+
+    <TextView
+        android:id="@+id/tv_spnlst"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="ListView :"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <ListView
+        android:id="@+id/lst"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

@@ -9,6 +9,6 @@ public class Linear extends AppCompatActivity {
     @Override
     public void onCreate(Bundle s){
         super.onCreate(s);
-        setContentView(R.layout.table_layout);
+        setContentView(R.layout.time_table);
     }
 }
